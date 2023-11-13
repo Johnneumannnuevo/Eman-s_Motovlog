@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(pic5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+.nav-wrapper{
+    background-color: rgb(5, 0, 0);
+}
+.brand-logo{
+    background-image: url(OIP.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    margin-left: 50px;
+ 
+}
+nav .nav-wrapper{
+    height: 100px;
+   
+}
+h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    margin-left: 100px;
+}
+.content{
+    margin: 50px;
+    display: flex;
+}
+.page-footer{
+    margin-top: -20px;
+}
+img{
+    border-radius: 1000px;
+    height: 500px;
+    width: 500px;
+}
+button{
+    float: left;
+    display: flex;
+    background-color: gray;
+    border-radius: 50px;
+
+   
+}
+h1{
+    color: rgb(253, 250, 250);
+    float: left;
+    width: 600px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+h1 span{
+    color: aqua;
+}
+.card{
+    width: 500px;
+    margin-bottom: 100px;
+    
+}
+
+.dropdown-content{
+    height: 10px;
+    width: 50px;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+.material-icons{
+    padding: 10px;
+    margin-left: 5px;
+    width: max-content;
+}
+.page-footer{
+    background-color: black;
+    margin-left: -50px;
+}
+.container{
+    width: 88%;
+}
+.dropdown-trigger{
+    background-color: gray;
+}
+ul{
+    display: flex;
+}
+li a:hover{
+    transition: 2ms;
+    color: rgb(75, 70, 70);
+    outline-style: auto;
+    
+}
+.material-icons{
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 20px;
+}

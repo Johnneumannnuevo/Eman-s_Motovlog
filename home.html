@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    
+    <title>Landing Page With Light/Dark Mode</title>
+    <link rel="stylesheet" href="style.css" />
+    
+    
+  </head>
+  <body>
+    <main>
+      <div class="big-wrapper light">
+        <img src="shape.png" alt="" class="shape" />
+
+        <header>
+          <div class="container">
+            <div class="logo">
+              <img src="OIP.jfif" alt="Logo" />
+              <h3>Eman'sMotovlog</h3>
+            </div>
+
+            <div class="links">
+              <ul>
+                <li><a href="home.html" style="color: lawngreen;">Home</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="index.html" class="btn">Logout</a></li>
+              </ul>
+            </div>
+
+            <div class="overlay"></div>
+
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </header>
+
+        <div class="showcase-area">
+          <div class="container">
+            <div class="left">
+              <div class="big-title">
+                <h1>Make your own Happiness!</h1>
+                <h2>Welcome to Eman'sMotovlog.</h2>
+              </div>
+              <p class="text">
+                “A Long Ride is the Answer to a Question You Will Soon Forget!” “Happiness is a Motorcycle, a Full Tank of Gas and Twisty Roads!” “Passing my motorcycle theory test gave me a disproportionate feeling of greatness.”
+              </p>
+              <div class="cta">
+                <a href="index.html" class="btn">Get started</a>
+              </div>
+            </div>
+
+            <div class="right">
+              
+              <img src="m4.jpg" alt="Product Image" class="product" />
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-area">
+          <div class="container">
+            <button class="toggle-btn">
+              <i class="far fa-moon"></i>
+              <i class="far fa-sun"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="card">
+      <div class="card-image">
+        <figure class="image is-4by3">
+          <img src="m3.jpg" alt="Placeholder image">
+        </figure>
+      </div>
+      <div class="card-content">
+        <div class="media">
+          <div class="media-left">
+            <figure class="image is-48x48">
+              <img src="m1.jpg" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="media-content">
+            <p class="title is-4">John Neumann Nuevo</p>
+            <p class="subtitle is-6">@johnneumannnuevo</p>
+          </div>
+        </div>
+    
+        <div class="content">
+          <h1>
+            If you want to be happy for a lifetime, ride a motorcycle. You don't stop riding when you get old, you get old when you stop riding. Life is not about waiting for the storms to pass: it's about learning how to ride in the rain!” <a>@bulmaio</a>.
+            <a href="#">#css</a> <a href="#">#responsive</a>
+            <br>
+            <time datetime="2016-1-1">11:09 PM - 1 November 2023</time></h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <h1>We are glad to see you to be part our <span>Motovlog </span>Community
+      
+        <a class='dropdown-trigger btn' href='home.html' data-target='dropdown1'>Learn More!</a>
+
+        <!-- Dropdown Structure -->
+        
+        <script>document.addEventListener('DOMContentLoaded', function() {
+          var elems = document.querySelectorAll('.dropdown-trigger');
+          var instances = M.Dropdown.init(elems, options);
+        });
+      
+        // Or with jQuery
+      
+        $('.dropdown-trigger').dropdown();</script></h1>
+        <i class="material-icons right"></i>
+      </button>
+      <img src="m2.jpg" alt="">       
+    </div>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Bulma</strong> by <a href="https://web.facebook.com/johnneumann.nuevo/">John Neumann Nuevo</a>. The source code is licensed
+          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+          is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+        </p>
+      </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
